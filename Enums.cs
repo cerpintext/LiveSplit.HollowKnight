@@ -314,7 +314,7 @@
         soldTrinket4,
 
         nailsmithConvoArt,
-
+        completionPercentage,
     }
     public enum GameState {
         INACTIVE,

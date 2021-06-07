@@ -682,6 +682,12 @@ namespace LiveSplit.HollowKnight {
                         (mem.PlayerData<int>(Offset.vesselFragments) == 4 ||
                             (mem.PlayerData<int>(Offset.MPReserveMax) == 33 && mem.PlayerData<int>(Offset.vesselFragments) == 2));
                     break;
+                case SplitName.PreFlowerShop:
+                    shouldSplit = mem.PlayerData<bool>(Offset.gotCharm_37) &&
+                        nextScene.StartsWith("Town") &&
+                        mem.PlayerData<int>(Offset.completionPercentage) == 89;
+                    break;
+
                 case SplitName.ElderHuEssence: shouldSplit = mem.PlayerData<int>(Offset.elderHuDefeated) == 2; break;
                 case SplitName.GalienEssence: shouldSplit = mem.PlayerData<int>(Offset.galienDefeated) == 2; break;
                 case SplitName.GorbEssence: shouldSplit = mem.PlayerData<int>(Offset.aladarSlugDefeated) == 2; break;

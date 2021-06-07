@@ -397,6 +397,8 @@ namespace LiveSplit.HollowKnight {
 
         [Description("106% Pre-Grimm Shop (Event)"), ToolTip("Splits when Lantern + Vessel Fragment(5) + Mask Shard(4) have been acquired")]
         PreGrimmShop,
+        [Description("106% Final Shopping (Event)"), ToolTip("Splits on transition to Town after buying Sprintmaster and having 89% completion")]
+        PreFlowerShop,
         [Description("Can Overcharm (Event)"), ToolTip("Splits when overcharming is enabled")]
         CanOvercharm,
         [Description("Chains Broken - Hollow Knight (Event)"), ToolTip("Splits at the end of the first Hollow Knight scream after the chains are broken")]
