@@ -48,7 +48,6 @@
     <OutputPath>bin\</OutputPath>
     <DefineConstants>TRACE;Info</DefineConstants>
     <Optimize>true</Optimize>
-    <OutputType>Exe</OutputType>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
@@ -116,6 +115,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="HollowKnight.ico" />
+    <EmbeddedResource Include="PlayerData\V1568.txt" />
     <EmbeddedResource Include="PlayerData\V1424.txt" />
     <EmbeddedResource Include="PlayerData\V1315.txt" />
     <EmbeddedResource Include="PlayerData\V1214.txt" />
